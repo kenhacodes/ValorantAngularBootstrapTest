@@ -1,0 +1,25 @@
+#contenedor{
+  background-color: rgb(78,85,97);
+}
+.card-img-overlay:hover{
+  color: rgb(255,70,85);
+}
+.card-img-overlay:hover h5{
+  font-size: x-large;
+}
+
+*{
+  transition: transform .4s;
+}
+.card:hover img{
+  transform: scale(1.1);
+
+}
+a{
+  text-decoration: none;
+  color: whitesmoke;
+}
+a:hover{
+  cursor: pointer;
+  color: rgb(255,70,85);
+}

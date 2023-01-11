@@ -1,0 +1,18 @@
+.navbar{
+  background-color: rgb(17,17,17);
+}
+*{
+  color: whitesmoke;
+}
+#navbarNav a:hover{
+  color: rgb(255,70,85);
+  font-size: large;
+}
+
+#titulo{
+  color: rgb(255,70,85);
+}
+img{
+  margin-top: 10px;
+  margin-bottom: 19px;
+}

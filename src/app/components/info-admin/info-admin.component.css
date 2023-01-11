@@ -1,0 +1,27 @@
+h5{
+  color: rgb(255,70,85);
+}
+#nombre{
+  text-align: center;
+  font-size: xxx-large;
+  color: rgb(255,100,100);
+}
+.card{
+  border: whitesmoke 5px solid;
+  background-color: rgb(33,37,41);
+  color: whitesmoke;
+  text-align: center;
+
+}
+
+.card:hover{
+  border-color: rgb(255,70,85);
+  transform: scale(1.2);
+}
+.card{
+  transition-duration: 0.5s;
+}
+
+p:hover{
+  color: rgb(255,70,85);
+}

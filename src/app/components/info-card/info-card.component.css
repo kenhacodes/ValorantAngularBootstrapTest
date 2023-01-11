@@ -1,0 +1,27 @@
+#contenedor{
+  background-color: rgb(78,85,97);
+}
+.card-body,img{
+  background-color: rgb(33,37,41);
+
+}
+.card{
+
+  border: whitesmoke 8px solid;
+  color: whitesmoke;
+}
+
+h5{
+  color: rgb(255,70,85);
+  font-size: xx-large;
+  margin-bottom: 20px;
+}
+.card:hover {
+  border-color: rgb(255,70,85);;
+}
+*{
+  transition: transform .8s;
+}
+#bg{
+  background-color: rgb(33,37,41);
+}

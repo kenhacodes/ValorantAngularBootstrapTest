@@ -1,0 +1,25 @@
+<div id="contenedor">
+
+
+<div class="row mx-3 pb-5 pt-4">
+  <div class="col-md-3 mt-3 " *ngFor="let id of ides"
+       [routerLink]="['/char/', id.uuid]">
+
+
+    <div class="card bg-dark text-white">
+      <img [src]="id.fullPortraitV2" class="card-img" alt="...">
+      <div class="card-img-overlay">
+        <h5 class="card-title">{{id.displayName}}</h5>
+        <p class="card-text">
+          <a [routerLink]="['/agentes/', id.uuid]">
+            INFO
+          </a>
+      </div>
+    </div>
+    <div>
+
+    </div>
+
+  </div>
+</div>
+</div>
